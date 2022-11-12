@@ -23,7 +23,7 @@ while True:
 
         #write and spliting
         for file_path in text_source_object:
-            object_name = file_path.split('/')[-1].split('.')
+            object_name = file_path.split('//')[-1].split('.')
             prefix = object_name[0]
             postfix = object_name[1]
 
