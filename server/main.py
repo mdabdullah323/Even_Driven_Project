@@ -46,7 +46,6 @@ while True:
        
         shutil.rmtree("../source/temp/")
         os.remove("../destination/file.zip")
-        #os.remove('../source/temp')
         os.remove('../source/file.zip')
         time.sleep(0.30)
         
