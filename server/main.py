@@ -44,10 +44,14 @@ while True:
                               extract_dir='../destination/')
         
        
-        
-        os.remove("../destination/file.zip")
         shutil.rmtree("../source/temp/")
-        time.sleep(0.1)
+        os.remove("../destination/file.zip")
+        
+        #os.remove('../source/temp')
+        os.remove('../source/file.zip')
+        time.sleep(0.30)
+        
+        
     
     if len(py_source_object) > 0:
         for p_file in py_source_object:
